@@ -5,10 +5,13 @@ body{
     h1{
         font-size: 50px;
         }
+    h2{
+        font-size: 20px;
+    }    
     .orange-color{
         color: orange;
     }
-    section{
+    .flexible-container{
         display: flex;
         margin-bottom: 150px;
     }
@@ -42,4 +45,21 @@ body{
          font-weight: 700;
          color: white;
     }
+    .experience-area{
+        background-image:url(image/exp-bg.png) ;
+    }
+  .experience-item{
+      width: 60%;
+      box-shadow: 10px 10px 10px gray;
+      margin-left: 5%;
+      margin-right:5% ;
+      padding-left: 20px;
+ }
+ #web-devoloper-experince{
+     border-left: 7px solid tomato;
+     border-image: url(image/exp-bg-pg);
+ }
+        
+     
+
    
